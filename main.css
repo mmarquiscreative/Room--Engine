@@ -1,0 +1,14 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mapRoom {
+    padding: 1rem;
+    margin: .4rem;
+    border: 1px solid #888;
+    background-color: lightcyan;
+}
+
+.currentRoom {
+    background-color: cyan !important;
+}

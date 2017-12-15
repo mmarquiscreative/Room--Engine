@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>xxTitlexx</title>
+  <link rel="stylesheet" href="main.css">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<p contenteditable="true">Hey there y'all</p>
+
+<div id="navButtons">
+<button id="leftDoor">Left</button>
+<button id="forwardDoor">Forward</button>
+<button id="rightDoor">Right</button>
+<button id="backwardDoor">Backwards</button>
+</div>
+
+<table>
+<tr>
+    <td></td>
+    <td id='forward'>north</td>
+    <td></td>
+</tr>
+<tr>
+    <td  id='left'>west</td>
+    <td></td>
+    <td id='right'>east</td>
+</tr>
+<tr>
+    <td></td>
+    <td id='backward'>south</td>
+    <td></td>
+</tr>
+</table>
+
+<table id='map'>
+<tr>
+    <td>-11-</td>
+    <td class='currentRoom'>-11-</td>
+    <td>-11-</td>
+</tr>
+<tr>
+    <td>-11-</td>
+    <td>-11-</td>
+    <td>-11-</td>
+</tr>
+<tr>
+    <td>-11-</td>
+    <td>-11-</td>
+    <td>-11-</td>
+</tr>
+</table>
+<script src="app.js"></script>
+</body>
+</html>
